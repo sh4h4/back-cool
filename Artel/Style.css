@@ -1,0 +1,364 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background: url(img/Group\ 1.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    padding: 80px;
+}
+
+header{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+header p{
+    color: #fff;
+    font-size: 24px;
+}
+
+.artel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.artel img{
+    position: absolute;
+    top: 10px;
+    left: 450px;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.yoube{
+    margin-bottom: 20px;
+}
+.bootom{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 200px;
+}
+.container-2{
+    width: 100%;
+    height: 100vh;
+    background: #000;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.cards{
+    margin-top: 40px;
+    display: flex;
+}
+
+.cards-2{
+    display: flex;
+    
+}
+.card-1{
+    width: 680px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(img/Vector\ \(8\).svg);
+    margin-right: 40px;
+}
+
+.card{
+    width: 380px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.history{
+    width: 680px;
+    height: 250px;
+    padding: 30px;
+    background: #15171B;
+}
+
+.number p{
+    color: #00D162;
+    font-size: 20px;
+    text-align: right;
+}
+
+.history-artel {
+    color: #fff;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.history h2{
+    color: #fff;
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+.more p{
+    color: #fff;
+    font-size: 14px;
+    text-align: right;
+    margin-top: 70px;
+}
+
+.more-1 p{
+    color: #fff;
+    font-size: 14px;
+    text-align: right;
+    margin-top: 55px;
+}
+
+.strateg{
+    width: 680px;
+    height: 250px;
+    padding: 30px;
+    background: #15171B;
+    margin-right: 40px;
+    margin-top: 40px;
+}
+
+.strateg h2{
+    color: #fff;
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+.innvensi{
+    width: 680px;
+    height: 250px;
+    padding: 30px;
+    background: #15171B;
+    margin-top: 40px;
+}
+
+.innvensi h2{
+    color: #fff;
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+
+.container-3{
+    width: 100%;
+    height: 100vh;
+    background: #000;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.partner{
+    width: 600px;
+}
+.partner p{
+    font-size: 24px;
+    color: #fff;
+    margin-top: 20px;
+}
+.partner-banner{
+    display: flex;
+    gap: 100px;
+}
+.samsung{
+    width: 400px;
+    height: 400px;
+    margin-top: 70px;
+}
+.shivaki{
+    width: 400px;
+    height: 400px;
+    margin-top: 70px;
+}
+
+.avalon{
+    width: 400px;
+    height: 400px;
+    margin-top: 70px;
+}
+.img-samsung{
+    background: url(img/Vector\ \(9\).svg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+}
+.text-samsung{
+    margin-top: 40px;
+}
+.text-samsung h2{
+    color: #00D162;
+    font-size: 26px;
+}
+
+.text-samsung p{
+    color: #fff;
+    font-size: 14px;
+}
+
+.container-4{
+    width: 100%;
+    min-height: 100vh;
+    background: #000;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product{
+    position: relative;
+}
+.back-product{
+    position: absolute;
+    right: -48px;
+    top: 0;
+}
+.kach{
+    position: absolute;
+    top: -125px;
+    right: 0;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-name: erw;
+    animation-timing-function: linear;
+    
+}
+@keyframes erw{
+    from{
+        transform: rotate(360deg);
+    }
+    to{
+        transform: rotate(0deg);
+    }
+}
+.kache{
+    position: absolute;
+    top: -50px;
+    right: 80px;
+}
+
+.haladilnik{
+    width: 660px;
+    height: 660px;
+    background: linear-gradient(225deg, #00D162 0%, rgba(255, 255, 255, 0.32) 100%);
+    padding: 50px;
+    position: relative;
+    border-radius: 20px;
+}
+
+.in-haladinik{
+    position: absolute;
+    z-index: 0;
+    
+}
+.haladilnik h2{
+    margin-top: 440px;
+    color: #fff;
+    z-index: 1;
+    position: relative;
+    font-size: 36px;
+}
+.haladilnik p{
+    color: rgb(206, 206, 206);
+    font-size: 18px;
+    z-index: 1;
+    position: relative;
+}
+
+.produckt-buy{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.haladilnik-2{
+    width: 660px;
+    height: 660px;
+    background: linear-gradient(225deg, #d11800 0%, rgba(255, 255, 255, 0.32) 100%);
+    padding: 50px;
+    position: relative;
+    border-radius: 20px;
+    
+}   
+
+.haladilnik-2 h2{
+    margin-top: 440px;
+    color: #fff;
+    z-index: 1;
+    position: relative;
+    font-size: 36px;
+}
+
+.haladilnik-2 p{
+    color: rgb(206, 206, 206);
+    font-size: 18px;
+    z-index: 1;
+    position: relative;
+}
+
+
+.haladilnik-3{
+    width: 660px;
+    height: 660px;
+    background: linear-gradient(225deg, #d19900 0%, rgba(255, 255, 255, 0.32) 100%);
+    padding: 50px;
+    position: relative;
+    border-radius: 20px;
+    
+}   
+
+.haladilnik-3 h2{
+    margin-top: 440px;
+    color: #fff;
+    z-index: 1;
+    position: relative;
+    font-size: 36px;
+}
+
+.haladilnik-3 p{
+    color: rgb(206, 206, 206);
+    font-size: 18px;
+    z-index: 1;
+    position: relative;
+}
+
+.haladilnik-4{
+    width: 660px;
+    height: 660px;
+    background: linear-gradient(225deg, #8400d1 0%, rgba(255, 255, 255, 0.32) 100%);
+    padding: 50px;
+    position: relative;
+    border-radius: 20px;
+    
+}   
+
+.haladilnik-4 h2{
+    margin-top: 440px;
+    color: #fff;
+    z-index: 1;
+    position: relative;
+    font-size: 36px;
+}
+
+.haladilnik-4 p{
+    color: rgb(206, 206, 206);
+    font-size: 18px;
+    z-index: 1;
+    position: relative;
+}
